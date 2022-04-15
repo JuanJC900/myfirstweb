@@ -55,7 +55,7 @@ ul {
 
 .nav-main ul.nav-menu {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 /* Showcase */
@@ -185,11 +185,11 @@ hr {
 }
 
 .links a {
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 .links a i {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* Footer Links */
@@ -226,13 +226,20 @@ hr {
     padding-bottom: 20px;
 }
 
-@media (max-width: 400px) { 
-    body {background: red}
+@media (max-width: 400px) {
     .captures {
         grid-template-columns: repeat(2, 1fr);
     }
     .banner-one .content,
     .banner-two .content {
-        width: 70%;
+        width: 100%;
+    }
+
+    .nav-main {
+        font-size: 12px;
+    }
+
+    .nav-logo {
+        width: 80px;
     }
 }
